@@ -1,0 +1,33 @@
+:root {
+  --color-black: #141414;
+}
+
+body {
+  background-color: #fff6dd;
+  font-family: "Quattrocento", serif;
+  margin: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

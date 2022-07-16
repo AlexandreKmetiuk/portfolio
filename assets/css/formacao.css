@@ -1,0 +1,113 @@
+.formacao {
+  background-color: #141414;
+  color: #f0f0f3;
+}
+
+.formacao-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 100px;
+  padding: 20px 40px;
+  grid-template-columns: 1fr 2fr;
+}
+
+.formacao-titulo {
+  font-size: 9rem;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+  color: #090912;
+}
+
+.formacao-subtitulo p {
+  font-size: 1.5rem;
+  color: #e2e2e8;
+  margin-bottom: 60px;
+}
+
+.formacao-faculdade--container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.formacao-faculdade--wiget {
+  flex: 1;
+  background-color: #090912;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  border-left: 3px solid #ffde99;
+}
+
+.formacao-faculdade--wiget p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.formacao-faculdade--wiget p:first-child {
+  font-size: 1.2rem;
+}
+
+.formacao-faculdade--wiget h4 {
+  flex: 1;
+  font-size: 1.2rem;
+  margin-bottom: 45px;
+  max-width: 20ch;
+}
+
+.formacao-cursos {
+  position: relative;
+}
+
+.formacao-livro {
+  left: -40px;
+  top: -7px;
+  position: absolute;
+  width: 35px;
+}
+
+.formacao-cursos h4 {
+  font-size: 1.5rem;
+}
+
+.formacao-cursos-lista li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1250px) {
+  .formacao-container {
+    grid-template-columns: 1fr;
+  }
+  .formacao-titulo {
+    font-size: 4rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+    color: #f0f0f3;
+  }
+}
+
+@media (max-width: 800px) {
+  .formacao-subtitulo p {
+    font-size: 1.4rem;
+  }
+
+  .formacao-livro {
+    left: -32px;
+    top: -4px;
+    position: absolute;
+    width: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .formacao-projetos {
+    grid-template-columns: 1fr;
+  }
+}
