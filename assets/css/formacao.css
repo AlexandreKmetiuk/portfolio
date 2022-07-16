@@ -4,15 +4,16 @@
 }
 
 .formacao-container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   display: grid;
   gap: 100px;
   padding: 20px 40px;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 1fr;
 }
 
 .formacao-titulo {
+  order: 1;
   font-size: 9rem;
   text-transform: uppercase;
   word-break: break-all;
@@ -84,12 +85,17 @@
 @media (max-width: 1250px) {
   .formacao-container {
     grid-template-columns: 1fr;
+    gap: 40px;
   }
   .formacao-titulo {
     font-size: 2.8rem;
     text-transform: capitalize;
     max-width: initial !important;
     color: #f0f0f3;
+  }
+
+  .formacao-subtitulo {
+    order: 1;
   }
 }
 

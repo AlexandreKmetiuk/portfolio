@@ -3,7 +3,7 @@
 }
 
 .experiencia-container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   display: grid;
   gap: 100px;
@@ -54,32 +54,30 @@
   color: #15151b;
 }
 
-@media (max-width: 1250px){ 
-    .experiencia-container{
-        grid-template-columns: 1fr;        
-    }  
-    .experiencia-titulo{
-        font-size: 2.8rem;
-        text-transform: capitalize;
-        max-width: initial !important;
-    }   
+@media (max-width: 1250px) {
+  .experiencia-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .experiencia-titulo {
+    font-size: 2.8rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
 }
 
-@media (max-width:800px){   
+@media (max-width: 800px) {
+  .experiencia-container--descricao {
+    font-size: 1.4rem;
+  }
 
-    .experiencia-container--descricao{
-        font-size: 1.4rem;
-    }
-
-    .experiencia-descricao a {
-        font-size: 1.4rem;
-    }
+  .experiencia-descricao a {
+    font-size: 1.4rem;
+  }
 }
 
-@media (max-width: 400px){
-    .experiencia-projetos{
-        grid-template-columns: 1fr;
-    }
+@media (max-width: 400px) {
+  .experiencia-projetos {
+    grid-template-columns: 1fr;
+  }
 }
-
-

@@ -3,10 +3,12 @@
 }
 
 body {
-  background-color: #F0F0F3;
+  background-color: #f0f0f3;
   font-family: "Quattrocento", serif;
   margin: 0px;
   box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
 }
 
 h1,
@@ -28,5 +30,6 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }

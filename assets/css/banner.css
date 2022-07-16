@@ -1,5 +1,5 @@
 .banner {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   display: grid;
   gap: 100px;
@@ -54,13 +54,12 @@
 
 @media (max-width: 800px) {
   .banner {
-    grid-template-columns: 1fr 1fr;
     display: flex;
     flex-direction: column;
     gap: 40px;
   }
 
   .banner img {
-    max-width: 60%;
+    max-width: 50%;
   }
 }

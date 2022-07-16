@@ -4,7 +4,7 @@
 }
 
 .footer-container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 120px 20px 60px 20px;
   gap: 100px;
@@ -29,30 +29,13 @@
   color: #8f8f8f;
 }
 
-.footer-triangulos {
-  position: relative;
-  left: 35%;
-}
-
-.triangulo {
-  width: 1px;
+.trapesio {
+  width: 300px;
   height: 1px;
-  position: relative;
-  z-index: 2;
-  top: -15px;
-  border: solid 50px transparent;
-  border-bottom: solid 50px #b7732a;  
+  border: solid 90px transparent;
+  border-bottom: solid 90px black;
   border-top: none;
-}
-.triangulo-borda {
-  position: relative;
-  z-index: 1;
-  top: -80px;
-  width: 1px;
-  height: 1px;
-  border: solid 60px transparent;
-  border-bottom: solid 60px #000;
-  border-top: none;
+  margin: 0 auto;
 }
 
 @media (max-width: 800px) {
