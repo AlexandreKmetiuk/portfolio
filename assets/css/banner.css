@@ -47,7 +47,7 @@
 
 @media (max-width: 1000px) {
   .banner-titulo h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     max-width: 8ch;
   }
 }
@@ -61,6 +61,6 @@
   }
 
   .banner img {
-    max-width: 50%;
+    max-width: 60%;
   }
 }

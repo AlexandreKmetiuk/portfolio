@@ -3,11 +3,10 @@
 }
 
 body {
-  background-color: #fff6dd;
+  background-color: #F0F0F3;
   font-family: "Quattrocento", serif;
   margin: 0px;
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
 h1,
