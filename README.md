@@ -1,0 +1,1 @@
+Com este projeto de portfolio vai ser uma base para um proximo projeto completo dele, habilidades usadas no CSS grid-layout manipulando melhor os elementos com ele e a responsividade. 
