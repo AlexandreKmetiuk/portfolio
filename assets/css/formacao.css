@@ -86,7 +86,7 @@
     grid-template-columns: 1fr;
   }
   .formacao-titulo {
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-transform: capitalize;
     max-width: initial !important;
     color: #f0f0f3;
