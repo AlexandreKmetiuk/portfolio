@@ -44,8 +44,9 @@
     gap: 40px;
   }
 
-  .footer-triangulos {
-    position: relative;
-    left: 50%;
+  .trapesio{
+    width: 10%;
+    border: 3px solid #93541b;
+    ;
   }
 }
